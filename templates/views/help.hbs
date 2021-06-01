@@ -4,11 +4,24 @@
     <title>Help</title>
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main-content">
         {{>header}}
-        <p>{{help_msg}}</p>
+        <h2>How can we help you?</h2>
+
+        <form action="mailto:krunal9220mathukiya@gmail.com" target="_blank">
+            <button type="submit" style="margin-right: 10px;">
+                Mail us
+            </button>
+        </form>
+        <h3>Want to contribute to this project?</h3>
+        <form action="https://github.com/Krunal9220/Weather-App" target="_blank">
+            <button type="submit">
+                GitHub Repo
+            </button>
+        </form>
     </div>
     {{>footer}}
 </body>

@@ -18,7 +18,6 @@ app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 
-
 // Setup static directory to serve
 app.use(express.static(publicDirPath));
 
@@ -36,7 +35,6 @@ app.get('/about', (req, res) => {
 })
 app.get('/help', (req, res) => {
     res.render('help', {
-        help_msg : 'We are happy to help you',
         title : 'Help',
         name : 'Krunal'
     })
@@ -80,9 +78,6 @@ app.get('/weather', (req, res) => {
         })
     })
 })
-app.get('/weather/')
-
-
 
 app.get('/help/*', (req, res) => {
     res.render('404', {
@@ -91,6 +86,7 @@ app.get('/help/*', (req, res) => {
         error : 'Help article not found'
     });
 })
+
 app.get('*', (req, res) => {
     res.render('404', {
         title : '404',
@@ -99,8 +95,6 @@ app.get('*', (req, res) => {
     });
 })
 
-
 app.listen(port, () => {
     console.log('Server is up on port ' + port);
 });
-
