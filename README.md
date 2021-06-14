@@ -1,8 +1,28 @@
 # Weather-App
-Weather application using node.js and express.js.
-It uses handlebars template module.
 
-Get weather information by providing the address.
-It can also fetch the weather info of your current location.
+Weather application built using Node.js and Express.js
 
-URL : https://krunal-weather-application.herokuapp.com/
+Most of the source code is part of [The Complete Node.js Developer Course](https://www.udemy.com/the-complete-nodejs-developer-course-2) by [Andrew Mead](https://github.com/andrewjmead)
+
+## Description
+
+Re-created a simple weather website using Node.js, Express to retrieve current weather information.
+
+## Functionalities
+Get weather details (temperature, wind speed, etc.) by
+- Providing address
+or
+- Using your current location
+
+### Note
+
+You will need to sign up for an API key at [MapBox](https://docs.mapbox.com/api/search/geocoding/) and [WeatherStack](https://weatherstack.com/) to use this app localy via your localhost.
+
+## Built With
+
+- [Node.js](https://nodejs.org/en/) - JavaScript runtime
+- [Express](https://expressjs.com/) - Server Framework
+- [HandleBars](https://www.npmjs.com/package/handlebars) - Template engine
+
+## Deployment
+[Heroku URL](http://krunal-weather-application.herokuapp.com/)
