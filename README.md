@@ -25,4 +25,4 @@ You will need to sign up for an API key at [MapBox](https://docs.mapbox.com/api/
 - [HandleBars](https://www.npmjs.com/package/handlebars) - Template engine
 
 ## Deployment
-[Heroku URL](http://krunal-weather-application.herokuapp.com/)
+[Heroku URL](https://krunal-weather-application.herokuapp.com/)
